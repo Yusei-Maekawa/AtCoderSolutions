@@ -1,0 +1,25 @@
+{
+    "name": "atcoder-cpp",
+
+    "build": {
+        "context": "..",
+        "dockerfile": "../Dockerfile"
+    },
+    
+    "containerEnv": {
+        "WORKSPACE_DIR": "${containerWorkspaceFolder}"
+    },
+    "postAttachCommand": "${containerWorkspaceFolder}/.scripts/login.sh",
+
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "extensions.verifySignature": false
+            },
+            "extensions": [
+                "ms-vscode.cpptools",
+                "forbeslindesay.forbeslindesay-taskrunner"
+            ]
+        }
+    }
+}
