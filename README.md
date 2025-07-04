@@ -1,7 +1,18 @@
+# AtCoder C++ Development Environment
+
+A containerized development environment for AtCoder competitive programming with C++.
+
+## Features
+
+- **Dev Container Setup**: Automated development environment with Docker
+- **Custom Bash Prompt**: Smart path display with problem detection
+- **Stack Size Optimization**: Prevents overflow in recursive algorithms
+- **Pre-configured Tools**: AtCoder CLI, Online Judge Tools, and AtCoder Library
+- **VS Code Integration**: Automatic extension installation and configuration
+
 ## Usage
 
-For detailed instructions on how to use this project, please visit [my blog](https://kaiyou9.com/atcoder-cpp-env/).
-
+For detailed instructions on how to use this project, please visit [the original tutorial](https://kaiyou9.com/atcoder-cpp-env/).
 
 ## Tools Used
 
@@ -15,7 +26,12 @@ This project uses the following external tools:
 
 [MIT License](./LICENSE).
 
+## Acknowledgments
 
-※acc oj でAtCoderに入れない対象法
+This development environment was inspired by and based on the tutorial from [kaiyou9.com](https://kaiyou9.com/atcoder-cpp-env/). Special thanks to the original author for providing the foundational setup guide.
 
-vimから AtCoder.jpのCookieを張り付ける。
+## Troubleshooting
+
+**Issue: acc/oj cannot access AtCoder**
+
+Solution: Manually paste cookies from AtCoder.jp using vim or other text editor into the cookie file.
