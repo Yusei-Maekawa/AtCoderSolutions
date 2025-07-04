@@ -19,7 +19,7 @@ For detailed instructions on how to use this project, please visit [the original
 This project uses the following external tools:
 
 - [AtCoder CLI (acc)](https://github.com/Tatamo/atcoder-cli) - for contest management and submission.
-- [Online Judge Tools (oj)](https://github.com/onojline-judge-tools/oj) - for test case downloading and local testing.
+- [Online Judge Tools (oj)](https://github.com/online-judge-tools/oj) - for test case downloading and local testing.
 - [AtCoder Library (ACL)](https://github.com/atcoder/ac-library) - a library for competitive programming, used for efficient algorithm implementations.
 
 ## License
