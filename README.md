@@ -15,7 +15,16 @@ This project uses the following external tools:
 
 [MIT License](./LICENSE).
 
+C++用で新しく環境作成
+
+# 参考サイト
+https://kaiyou9.com/atcoder-start-at-hand/
+
+※環境構築の際に毎回description欄に記載があるが、どういう仕組みで動いているか知りたかったため個人的に書いている
+
+---------------------------------------------------------------------
 
 ※acc oj でAtCoderに入れない対象法
 
 vimから AtCoder.jpのCookieを張り付ける。
+
