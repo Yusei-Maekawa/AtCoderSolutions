@@ -1,3 +1,18 @@
+AtCoderで使用する環境で C++用を新しく環境作成
+
+# 参考サイト
+https://kaiyou9.com/atcoder-start-at-hand/
+
+※環境構築の際に毎回description欄に記載があるが、どういう仕組みで動いているか知りたかったため個人的に書いている
+
+---------------------------------------------------------------------
+
+※acc oj でAtCoderに入れない対象法
+
+vimから AtCoder.jpのCookieを張り付ける。
+
+---------------------------------------------------------------------
+
 ## Usage
 
 For detailed instructions on how to use this project, please visit [my blog](https://kaiyou9.com/atcoder-cpp-env/).
@@ -15,16 +30,5 @@ This project uses the following external tools:
 
 [MIT License](./LICENSE).
 
-C++用で新しく環境作成
 
-# 参考サイト
-https://kaiyou9.com/atcoder-start-at-hand/
-
-※環境構築の際に毎回description欄に記載があるが、どういう仕組みで動いているか知りたかったため個人的に書いている
-
----------------------------------------------------------------------
-
-※acc oj でAtCoderに入れない対象法
-
-vimから AtCoder.jpのCookieを張り付ける。
 
