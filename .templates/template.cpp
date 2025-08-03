@@ -1,9 +1,31 @@
-// This file is a template for competitive programming in C++
-// It includes common libraries, macros, and a basic structure for a solution.
+/*
+ * <bits/stdc++.h>
+ *   - 競技プログラミングでよく使う標準C++ライブラリを一括でインクルードできる非標準ヘッダ
+ *   - vector, string, map, set, algorithm, queue, stack, iostream などほぼ全てのSTLが使える
+ *
+ * <atcoder/all>
+ *   - AtCoder公式のライブラリ（ACL）を全てインクルード
+ *   - UnionFind（dsu）, modint（任意mod整数）, segtree（セグメント木）, fenwick_tree（BIT）など
+ *   - AtCoderの多くの問題で高速に使える便利なデータ構造や数値型が揃っている
+ *
+ * <iomanip>
+ *   - 出力の整形（小数点以下の桁数指定、右寄せ・左寄せ、fill文字指定など）に使う
+ *   - 例: cout << fixed << setprecision(10) << x;
+ *
+ * <cmath>
+ *   - 数学関数（sqrt, pow, abs, sin, cos, log, exp など）や定数（M_PIなど）を使うため
+ *   - 浮動小数点の誤差比較や三角関数、累乗計算などで利用
+ *
+ * <ranges>
+ *   - C++20で導入された範囲ベースの操作を提供
+ *   - views::filter, views::transform, views::reverse などで配列やコンテナを直感的に操作できる
+ *   - 例: auto odds = v | views::filter([](int x){ return x%2; });
+ */
 #include <bits/stdc++.h>
 #include <atcoder/all>
 #include <iomanip>
-#include<cmath>
+#include <cmath>
+#include <ranges>
 using namespace std;
 using namespace atcoder;
 
