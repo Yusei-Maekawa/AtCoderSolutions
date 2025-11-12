@@ -18,7 +18,9 @@
             },
             "extensions": [
                 "ms-vscode.cpptools",
-                "forbeslindesay.forbeslindesay-taskrunner"
+                "forbeslindesay.forbeslindesay-taskrunner",
+                "SanaAjani.taskrunnercode",
+                "ms-vscode-remote.remote-containers"
             ]
         }
     }
